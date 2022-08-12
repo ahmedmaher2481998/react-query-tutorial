@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 function App() {
 	const [page, setPage] = useState("Planets");
 	return (
-		<div className='App'>
+		<div className='app'>
 			<Nav setPage={setPage} />
 			this is a page : {page}
 			{page === "Planets" ? <Planets /> : <People />}

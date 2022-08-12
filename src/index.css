@@ -7,6 +7,12 @@ body {
 	text-align: center;
 	color: beige;
 }
+.app {
+	min-height: 100vh;
+	width: 986px;
+	margin: 0 auto;
+	/* background-color: #fff; */
+}
 nav {
 	display: flex;
 	flex-direction: column;
@@ -15,10 +21,20 @@ nav h1 {
 	font-size: 4rem;
 	margin-bottom: 15px;
 }
+nav .btn-container {
+	padding: 2px 0;
+}
 nav button {
-	padding: 5px 15px;
+	padding: 5px 25px;
 	border-radius: 20px;
 	background-color: transparent;
 	color: beige;
+	margin: 1rem 1rem;
 	border: 1px solid gray;
+}
+nav button:hover {
+	background-color: #fff;
+	color: black;
+	transform: scale(1.1);
+	border: 1px solid black;
 }

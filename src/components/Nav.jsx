@@ -7,7 +7,7 @@ const Nav = ({ setPage }) => {
 	};
 	return (
 		<nav>
-			<h1>Star Wars</h1>
+			<h1>Star Wars info</h1>
 			<div className='btn-container'>
 				<button onClick={handleClick}>People</button>
 				<button onClick={handleClick}>Planets</button>
